@@ -4,7 +4,7 @@ export const portfolioData = [
     name: 'Find the Biggest Square',
     languages: ['C'],
     languagesIcons: ['fab fa-cuttlefish'],
-    source: 'https://github.com/EpitechPromo2026/B-CPE-110-PAR-1-1-BSQ-sofiane.bassaler',
+    source: 'https://github.com/Comaaaaa/bsq',
     info: "Création d'un programme qui prend une carte de caractère en paramètre, cette carte est composée de '.' ainsi que de 'o', les o représentent les obstacles, le but du projet est de trouver le plus grand carré composé exclusivement de '.', ainsi j'ai dû réaliser un algorithme qui est capable de déterminer quel est le plus grand carré de la carte donnée en paramètre",
     picture: './media/bsq.jpg'
   },
@@ -22,7 +22,7 @@ export const portfolioData = [
     name: 'RPG',
     languages: ['C'],
     languagesIcons: ['fab fa-cuttlefish', 'fas fa-paint-brush'],
-    source: 'https://github.com/EpitechIT2020/B-MUL-200-PAR-2-1-myrpg-steeven-charles-edward.akintilo',
+    source: 'https://github.com/Comaaaaa/rpg',
     info: "Création d'un jeu en langage C grâce à la bibliothèque SFML, il s'agissait d'un projet de groupe, ainsi sur ce projet, je me suis occupé de la réalisation des sprites de jeu ainsi que des particules, j'ai ainsi appris le travail de groupe et la réalisation de sprite afin de faciliter le travail de mes coéquipiers.",
     picture: './media/rpg.jpg'
   },

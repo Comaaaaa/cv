@@ -19,9 +19,9 @@ const SideSkills = () => {
                         <li><i className="fas fa-check-square">
                         </i> Montage vidéo</li>
                         <li><i className="fas fa-check-square">
-                        </i> Photoshop / Lightroom</li>    
+                        </i> Suite Adobe</li>    
                        <li><i className="fas fa-check-square">
-                       </i> Illustrator</li> 
+                       </i> Criterion</li> 
                        <li><i className="fas fa-check-square">
                        </i> Apprentissage Rapide</li> 
                     </ul>
