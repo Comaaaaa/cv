@@ -1,0 +1,258 @@
+@import "../settings";
+
+.Abilities {
+    display: flex;
+    .AbilitiesData {
+        min-height: $minHeight;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 38% 1fr 1fr;
+        grid-template-rows: 70% 30%;
+        grid-template-areas:
+            "L E E"
+            "O O H";
+
+        .languagesFrameworks, .experience, .sideSkills {
+            background-color: $color-4;
+            color: $color-2;
+            padding: .8rem;
+        }
+        h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            font-family: $font-4;
+            color: $color-1;
+            text-transform: uppercase;
+        }
+        .languagesFrameworks {
+            grid-area: L;
+            margin-bottom: .5rem;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            grid-template-areas: 
+                "L"
+                "F";
+        
+            .languageDisplay {
+                grid-area: L;
+            }
+            .frameworksDisplay {
+                grid-area: F;
+            }
+            h3 {
+                font-size: 1.4rem;
+                margin-bottom: .8rem;
+            }
+            .languagesFrameworks {
+                grid-area: L;
+                margin-bottom:.5rem;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr;
+                grid-template-areas:
+                    "L"
+                    "F";
+                
+                .languagesDisplay {
+                    grid-area: L;
+                }
+                .frameworksDisplay {
+                    grid-area: F;
+                }
+            }
+            .exp {
+                font-size: 1.4rem;
+                display: flex;
+                justify-content: space-between;
+                color: $color-2;
+                    
+                span {
+                    width: 40%;
+                    &:nth-child(2){
+                        text-align:right;
+                        width: 20%;
+                    }
+                    &:nth-child(3){
+                        text-align:right;
+                        width: 45%;
+                    }
+                    &:nth-child(2):before, 
+                    &:nth-child(3):before {
+                        content: '';
+                        background: $white;
+                        position: absolute;
+                        height: 200px;
+                        width: 1px;
+                        transform: translate(37px, 35px);
+                    }
+                }
+            }
+            .languagesList {
+                padding-top: .5rem;
+
+                li {
+                    color: $color-5;
+                }
+                .progressBar {
+                    height: .4rem;
+                    background: transparent;
+                    border-radius: 50px;
+                    margin-top: .2rem;
+                    position: relative;
+
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        background: $color-5;
+                        border-radius: 50px;
+                        height: .4rem;
+                        width: 0;
+                        animation: line 1.5s ease-in forwards;
+
+                        @keyframes line {
+                            to {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+    .experience {
+        grid-area: E;
+        margin: 0 0 .5rem .5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10% 1fr 1fr;
+        grid-template-areas: 
+        "1"
+        "2"
+        "3"
+        "4";
+        
+        h3 {
+        grid-area: 1;
+        }
+        h4 {
+        font-size: 1.1rem;
+        color: $color-5;
+        }
+        h5 {
+        color: $color-7;
+        padding: 0.5rem 0 0.5rem 1rem;
+        }
+        p {
+        text-align: justify;
+        padding: 0 1rem;
+        font-size: 1.2rem;
+        }
+        .exp-1 {
+        grid-area: 2;
+        }
+        .exp-2 {
+        grid-area: 3;
+        }
+        .exp-3 {
+            grid-area: 4;
+        }
+    }
+    .sideSkills {
+        grid-area: O;
+        margin-right: 0.5rem;
+
+        .list {
+        display: flex;
+        width: 60%;
+        height: 100%;
+        justify-content: space-between;
+
+        ul {
+            height: 80%;
+            display: grid;
+
+            i {
+            color: $color-5;
+            }
+        }
+        }
+    }
+    @media screen and (max-width: 950px){
+    .AbilitiesData {
+    h3 {
+        font-size: 1.2rem !important;
+    }
+    .languagesList {
+        padding-top: .2rem !important;
+    }
+    p {
+        font-size: .8rem;
+    }
+    .ideSkill  {
+        font-size: .8rem;
+    }
+    .button {
+        font-size: .8rem;
+    }
+    }
+    }
+    @media screen and (max-width: 850px){
+    .AbilitiesData {
+    h4 {
+        font-size: .9rem !important;
+    }
+    h5 {
+        font-size: .6rem !important;
+        padding: .2rem 1rem !important;
+    }
+    }
+    }
+    @media screen and (max-width: 500px){
+    .AbilitiesData {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr 1fr 180px 180px !important;
+        
+        .languages {
+            grid-area: 1 !important;
+        }
+        .experience {
+            grid-area: 2 !important;
+            margin-left: 0 !important;
+        }
+        .sideSkills {
+            grid-area: 4 !important;
+            margin-right: 0 !important;
+        }
+        .button {
+            grid-area: 5 !important;
+            margin-right: 0 !important;
+        }
+    }
+}
+
+.button {
+    .portButton {
+        margin-top: 4rem;
+        margin-right: rem;
+        h3 {
+            color: $color-1;
+            margin-bottom: 1.4rem;
+        }
+        a {
+            padding:1rem 2rem;
+            border-radius: $border-radius;
+            background-color: $color-7;
+            transition: .2s;
+            &:hover {
+                background: $color-5;
+            }
+    
+        }
+    }
+}

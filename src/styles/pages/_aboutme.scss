@@ -1,0 +1,75 @@
+.aboutme {
+  .aboutme-container {
+    margin: auto;
+    width: 80%;
+    div {
+      margin: 25px 0;
+    }
+  }
+
+  .Biography {
+    border-radius: $border-radius;
+    top: 5rem;
+    padding: 1rem 2rem;
+    max-width: 65rem;
+    background: $color-1;
+    user-select: none;
+    box-shadow: $shadow;
+    margin: 0 auto;
+
+    h3 {
+      font-size: 1.5em;
+      margin-left: 40%;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+  }
+  .hobbies {
+    border-radius: $border-radius;
+    top: 5rem;
+    max-width: 65rem;
+    padding: 1rem 2rem;
+    background: $color-1;
+    user-select: none;
+    box-shadow: $shadow;
+    margin: 0 auto;
+    ul {
+      font-size: 1.4rem;
+    }
+  }
+  .creations {
+    grid-area: 3;
+    border-radius: $border-radius;
+    top: 5rem;
+    max-width: 65rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    background: $color-1;
+    user-select: none;
+    box-shadow: $shadow;
+    overflow: hidden;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+  .creations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    div {
+      margin-top: 50px;
+    }
+
+    img {
+      height: 200px;
+      border-radius: $border-radius;
+      &:hover {
+        transform: scale(1.6);
+        cursor: pointer;
+      }
+    }
+  }
+}
