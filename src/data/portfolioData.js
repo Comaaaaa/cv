@@ -23,7 +23,7 @@ export const portfolioData = [
     languages: ['C'],
     languagesIcons: ['fab fa-cuttlefish', 'fas fa-paint-brush'],
     source: 'https://github.com/Comaaaaa/rpg',
-    info: "Création d'un jeu en langage C grâce à la bibliothèque SFML, il s'agissait d'un projet de groupe, ainsi sur ce projet, je me suis occupé de la réalisation des sprites de jeu ainsi que des particules, j'ai ainsi appris le travail de groupe et la réalisation de sprite afin de faciliter le travail de mes coéquipiers.",
+    info: "Création d'un jeu en langage C grâce à la bibliothèque SFML, il s'agissait d'un projet de groupe, ainsi sur ce projet, je me suis occupé de la réalisation des sprites de jeu ainsi que des particules, j'ai ainsi appris le travail de groupe et la réalisation de sprites afin de faciliter le travail de mes coéquipiers.",
     picture: './media/rpg.jpg'
   },
   {
