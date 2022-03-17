@@ -24,7 +24,7 @@ const Experience = () => {
                 <h5>Décembre 2019 - Avril 2020 </h5>
                 <p>Hôte d'accueil et conseiller de clientèle, je renseignais les clients
                 vis à vis de leurs besoin, j'analysais les portefeuilles clients et proposais
-                des solutions et services adaptées à leurs besoins, j'analysais les clients prospects
+                des solutions et services adaptés à leurs besoins, j'analysais les clients prospects
                 et proposais des offres commerciales afin d'attirer les clients auprès de l'établissement.</p>
             </div>
         </div>
