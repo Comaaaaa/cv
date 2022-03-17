@@ -5,7 +5,7 @@ const Creations = () => {
     <div>
       <div className="creations">
         <p>
-            Voici quelques unes de mes créations, visuelles, 
+            Voici quelques unes de mes créations visuelles, 
             vous pouvez trouver ici des logos d'entreprises ainsi que des NFTs
             représentant différents personnages.
         </p>
