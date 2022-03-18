@@ -30,14 +30,14 @@ const Contact = () => {
             </li>
             <li>
               <i className="far fa-envelope"></i>
-              <CopyToClipboard text="sofianebassaler@gmail.com">
+              <CopyToClipboard text="sofiane.bassaler@epitech.eu">
                 <span
                   className="clickInput"
                   onClick={() => {
                     alert("Mail copié");
                   }}
                 >
-                  sofianebassaler@gmail.com
+                  sofiane.bassaler@epitech.eu
                 </span>
               </CopyToClipboard>
             </li>
