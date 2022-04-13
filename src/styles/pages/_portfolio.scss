@@ -9,73 +9,6 @@
         "1"
         "2";
     }
-  
-    .radioDisplay {
-      grid-area: 1;
-      border-radius: $border-radius;
-      display: flex;
-      width: 100%;
-      padding: 1rem 2rem;
-      margin: 0 auto;
-      background: $color-1;
-      user-select: none;
-      box-shadow: $shadow;
-  
-      li {
-        color: $color-2;
-        font-size: 1.1rem;
-        text-transform: uppercase;
-        padding: 0 1rem;
-        flex: 1;
-        z-index: 2;
-        @include verticalCenter;
-  
-        input[type="radio"]{
-          visibility: hidden;
-          position: relative;
-  
-          &:before {
-            content:'';
-            visibility: visible;
-            position: absolute;
-            top: -4px;
-            left: -12px;
-            height: .9rem;
-            width: .9rem;
-            border-radius: 50%;
-            border: 2px solid $color-5;
-            cursor: pointer;
-            transition: 0.3s;
-          }
-          &:after {
-            content:'';
-            visibility: visible;
-            position: absolute;
-            top: -4px;
-            left: -12px; 
-            height: .9rem;
-            width: .9rem;
-            border-radius: 50%;
-            cursor: pointer;
-            transition: 0.3s;
-            background: $color-4;
-            transform: scale(0);
-            transform-origin: center;
-          }
-        }
-        input:checked:after {
-          transform: scale(1.17) translate(-25%, -25%);
-          top: 2px;
-          left: -6px;
-        }
-        input:checked + label {
-          color: $color-4;
-        }
-        label {
-          cursor: pointer;
-        }
-      }
-    }
     .projects {
       grid-area: 2;
       display: flex;
@@ -224,9 +157,6 @@
     }
   }
   @media (max-width: 520px){
-    .radioDisplay {
-      display: none !important;
-    }
     .portfolioContent {
       grid-template-rows: 1fr !important;
   
