@@ -1,12 +1,11 @@
 export const portfolioData = [
   {
     id: 1,
-    name: 'Find the Biggest Square',
-    languages: ['C'],
-    languagesIcons: ['fab fa-cuttlefish'],
-    source: 'https://github.com/Comaaaaa/bsq',
-    info: "Création d'un programme qui prend une carte de caractère en paramètre, cette carte est composée de '.' ainsi que de 'o', les o représentent les obstacles, le but du projet est de trouver le plus grand carré composé exclusivement de '.', ainsi j'ai dû réaliser un algorithme qui est capable de déterminer quel est le plus grand carré de la carte donnée en paramètre",
-    picture: './media/bsq.jpg'
+    name: 'Epytodo',
+    languages: ['javascript', 'SQL'],
+    languagesIcons: ['fab fa-js', 'fab fa-css3-alt', 'fas fa-database'],
+    info: "Création d'une app type TodoList en javaScript, cette dernière utilise une base de données en SQL sur ses utilisateurs, mais également sur les tâches effectuées, elle possède également une interface de connexion, toute la partie back-end et front-end a été faite par nous-mêmes. Malheureusement, le code source n'est pas disponible.",
+    picture: './media/EpytodoCV.png'
   },
   {
     id: 2,

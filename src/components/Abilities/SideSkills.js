@@ -9,7 +9,7 @@ const SideSkills = () => {
                         <li><i className="fas fa-check-square">
                         </i> Anglais Courant</li>
                         <li><i className="fas fa-check-square">
-                        </i> Espagnol Courant</li>    
+                        </i> PHPmyadmin</li>    
                        <li><i className="fas fa-check-square">
                        </i> Github</li> 
                        <li><i className="fas fa-check-square">
@@ -17,7 +17,7 @@ const SideSkills = () => {
                     </ul>
                     <ul>
                         <li><i className="fas fa-check-square">
-                        </i> Montage vidéo</li>
+                        </i> MariaDB</li>
                         <li><i className="fas fa-check-square">
                         </i> Suite Adobe</li>    
                        <li><i className="fas fa-check-square">
