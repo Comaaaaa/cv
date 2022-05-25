@@ -191,18 +191,21 @@
         padding-top: .2rem !important;
     }
     p {
-        font-size: .8rem;
+        font-size: .9rem;
     }
     .ideSkill  {
-        font-size: .8rem;
+        font-size: .9rem;
     }
     .button {
-        font-size: .8rem;
+        font-size: .6rem;
+        }
     }
-    }
-    }
+}
     @media screen and (max-width: 850px){
     .AbilitiesData {
+    span {
+        font-size: 1rem;
+    }
     h4 {
         font-size: .9rem !important;
     }
@@ -210,9 +213,10 @@
         font-size: .6rem !important;
         padding: .2rem 1rem !important;
     }
+
     }
     }
-    @media screen and (max-width: 500px){
+    @media screen and (max-width: 400px){
     .AbilitiesData {
         display: grid !important;
         grid-template-columns: 1fr !important;
@@ -226,11 +230,11 @@
             margin-left: 0 !important;
         }
         .sideSkills {
-            grid-area: 4 !important;
+            grid-area: 3 !important;
             margin-right: 0 !important;
         }
         .button {
-            grid-area: 5 !important;
+            grid-area: 4 !important;
             margin-right: 0 !important;
         }
     }

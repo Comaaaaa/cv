@@ -6,7 +6,6 @@
       margin: 25px 0;
     }
   }
-
   .Biography {
     border-radius: $border-radius;
     top: 5rem;
@@ -72,4 +71,50 @@
       }
     }
   }
+@media screen and (max-width: 850px){
+  .Biography {
+    border-radius: $border-radius;
+    top: 5rem;
+    padding: 1rem 2rem;
+    max-width: 65rem;
+    background: $color-1;
+    user-select: none;
+    box-shadow: $shadow;
+    margin: 0 auto;
+
+    h3 {
+      font-size: 1.5em;
+      margin-left: 34%;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+  }
+  .hobbies {
+    ul {
+      font-size: 1.1rem;
+    }
+  }
+}
+@media screen and (max-width: 400px){
+  .Biography {
+    border-radius: $border-radius;
+    top: 5rem;
+    padding: 1rem 2rem;
+    max-width: 65rem;
+    background: $color-1;
+    user-select: none;
+    box-shadow: $shadow;
+    margin: 0 auto;
+
+    h3 {
+      font-size: 1.2em;
+      margin-left: 4%;
+    }
+    p {
+      padding-top: 1rem;
+      font-size: 1.1rem;
+    }
+  }
+}
 }
