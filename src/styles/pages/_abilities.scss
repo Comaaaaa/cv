@@ -216,7 +216,7 @@
 
     }
     }
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 390px){
     .AbilitiesData {
         display: grid !important;
         grid-template-columns: 1fr !important;
@@ -230,12 +230,19 @@
             margin-left: 0 !important;
         }
         .sideSkills {
+            font-size: 1.1rem;
             grid-area: 3 !important;
             margin-right: 0 !important;
         }
         .button {
+            font-size: 1rem;
             grid-area: 4 !important;
             margin-right: 0 !important;
+            .portButton {
+                h3 {
+                    padding-right: 2rem;
+                }
+            }
         }
     }
 }
