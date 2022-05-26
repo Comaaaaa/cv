@@ -187,3 +187,32 @@
       }
     }
   }
+  @media (max-width: 350px){
+    .portfolioContent {
+      grid-template-rows: 1fr !important;
+  
+      .project {
+        grid-template-rows: 30px 40px 80px 40px !important;
+        width: 98% !important;
+  
+        img {
+          height: 100% !important;
+        }
+      }
+      .showInfos {
+        .infosContent {
+          width: 60% !important;
+          height: 80% !important;
+          .head {
+            h2 {
+              font-size: 1rem;
+            }
+            .codeSource {
+              display: flex;
+              transform: scale(0.9);
+            }
+          }
+        }
+      }
+    }
+  }
