@@ -142,7 +142,7 @@
       }
     }
   }
-  @media (max-width: 650px) and (min-width: 521px){
+  @media (max-width: 850px) and (min-width: 521px){
     .portfolioContent {
       .project {
         width: 49% !important;
@@ -154,6 +154,22 @@
       .showInfos {
       .infosContent {
         width: 2  0% !important;
+      }
+    }
+    }
+  }
+  @media (max-width: 1080px) {
+    .portfolioContent {
+      .project {
+        width: 49% !important;
+  
+        i {
+          font-size: 1rem;
+        }
+      }
+      .showInfos {
+      .infosContent {
+      left: 100px;
       }
     }
     }
