@@ -151,12 +151,14 @@
           font-size: 1rem;
         }
       }
+      .showInfos {
       .infosContent {
-        width: 100% !important;
+        width: 2  0% !important;
       }
     }
+    }
   }
-  @media (max-width: 520px){
+  @media (max-width: 450px){
     .portfolioContent {
       grid-template-rows: 1fr !important;
   
@@ -166,6 +168,21 @@
   
         img {
           height: 100% !important;
+        }
+      }
+      .showInfos {
+        .infosContent {
+          width: 60% !important;
+          height: 80% !important;
+          .head {
+            h2 {
+              font-size: 1rem;
+            }
+            .codeSource {
+              display: flex;
+              transform: scale(0.9);
+            }
+          }
         }
       }
     }

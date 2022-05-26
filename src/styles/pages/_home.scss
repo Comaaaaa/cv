@@ -60,23 +60,28 @@
   }
 }
 @media screen and (max-width: 850px){
-  .homeData {
-    &:after {
-      background: url('../../media/tech.jpg') no-repeat 60% 50%/cover !important;
-      border-radius: $border-radius;  
-    }
-      h1 {
-        font-size: 2rem !important;
+  .home {
+    .homeData {
+      &:after {
+        background: url('../../media/Dev.svg') no-repeat 10% 20%/cover !important;
+        border-radius: $border-radius;  
       }
-      h2 {
-        font-size: 1.8rem !important;
+        h1 {
+          font-size: 1.8rem !important;
+        }
+        h2 {
+          font-size: 1.4rem !important;
+        }
+        .pdf {
+        //padding-bottom: 6rem;
       }
     }
+  }
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:450px){
   .homeData {
     &:after {
-    background: url('../../media/tech.jpg') no-repeat 60% 50%/cover !important;
+    background: url('../../media/Dev.svg') no-repeat 60% 50%/cover !important;
     }
     h1 {
       font-size: 3rem !important;
@@ -90,7 +95,7 @@
   .homeData {
     padding-top: -5rem;
     &:after {
-    background: url('../../media/tech.jpg') no-repeat 60% 50%/cover !important;
+    background: url('../../media/Dev.svg') no-repeat 60% 50%/cover !important;
     border-radius: $border-radius;
     }
     h1 {
