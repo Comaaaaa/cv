@@ -9,6 +9,7 @@ import Abilities from "./pages/Abilities";
 import Navigation from "./components/Navigation";
 
 const App = () => {
+  <link rel="icon" href="../public/media/Dev.svg"></link>
   return (
     <>
       <BrowserRouter>
