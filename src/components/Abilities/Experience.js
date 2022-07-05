@@ -6,11 +6,11 @@ const Experience = () => {
             <h3>Expériences</h3>
             <div className="exp-1">
                 <h4>Graphiste - Freelancer</h4>
-                <h5>Septembre 2020 - Actuel </h5>
+                <h5>Septembre 2020 - Aujourd'hui </h5>
                 <p>Je réalise des visuels artistiques pour des
-                    entreprises, comme des logos,
+                    entreprises comme des logos,
                     des bannières ainsi que des sites vitrine. Je leur propose des visuels qui
-                    correspondent à leurs images afin qu'elles attirent de nouveaux clients.</p>
+                    correspondent à leur image afin qu'elles attirent de nouveaux clients.</p>
             </div>
             <div className="exp-2">
                 <h4>Commercial - Go Sport</h4>
