@@ -35,11 +35,11 @@
             grid-template-areas: 
                 "L"
                 "F";
-        
             .languageDisplay {
                 grid-area: L;
             }
             .frameworksDisplay {
+                margin-top: 2rem;
                 grid-area: F;
             }
             h3 {
@@ -84,7 +84,7 @@
                         content: '';
                         background: $white;
                         position: absolute;
-                        height: 200px;
+                        height: 25vh;
                         width: 1px;
                         transform: translate(37px, 35px);
                     }

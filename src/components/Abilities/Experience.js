@@ -13,15 +13,21 @@ const Experience = () => {
                     correspondent à leur image afin qu'elles attirent de nouveaux clients.</p>
             </div>
             <div className="exp-2">
-                <h4>Commercial - Go Sport</h4>
-                <h5>Juillet 2021 - Octobre 2021 </h5>
-                <p>Vendeur en rayon de sport, je renseignais les clients
-                et leurs proposais des produits adaptés à leurs besoins.</p>
+                <h4>Assistant technique & pédagogique - ETNA</h4>
+                <h5>Aout 2022 - Janvier 2023 </h5>
+                <p>J'ai accompagné les élèves de l'établissement supérieur ETNA, je les ai ainsi
+                    encadré pendant leurs piscine en répondant à leurs questions techniques, mais 
+                    également en réalisant des cours pour les notions techniques 
+                    qu'ils ne comprenaient pas.
+                    De plus, j'ai également
+                    réalisé des outils et supports informatiques pour les membres de l'équipe pédagogique.
+
+                </p>
             </div>
             <div className="exp-3">
                 <h4>Hôte d'accueil et conseiller clientèle - Société Générale</h4>
                 <h5>Décembre 2019 - Avril 2020 </h5>
-                <p>Hôte d'accueil et conseiller clientèle, je renseignais les clients
+                <p>Je renseignais les clients
                 en fonction de leurs besoins, j'évaluais les portefeuilles clients et proposais
                 des solutions et services adaptés, j'analysais les dossiers des clients prospects
                 et les démarchais via des offres commerciales.</p>

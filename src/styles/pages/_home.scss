@@ -18,7 +18,7 @@
       margin-top: 5rem;
       height: 100%;
       width: inherit;
-      background: url('../../media/Dev.svg')no-repeat center;
+      background: url('../../media/Dev.svg')no-repeat center 5rem;
       z-index: -1;
       filter: brightness(30%);
     }
@@ -40,6 +40,7 @@
         font-size: 2.5rem;
         padding: 1.5rem 0 7rem;
         color: $color-2;
+        font-family: $font-4;
         text-shadow: 1px 2px 1px $color-1;
       }
       .pdf {
@@ -73,7 +74,7 @@
           font-size: 1.4rem !important;
         }
         .pdf {
-        //padding-bottom: 6rem;
+        // padding-bottom: 6rem;
       }
     }
   }

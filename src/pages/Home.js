@@ -1,5 +1,4 @@
 import React from "react";
-import Navigation from "../components/Navigation";
 import "../styles/pages/_home.scss";
 
 const Home = () => {

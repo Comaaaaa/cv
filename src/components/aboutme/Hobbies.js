@@ -1,4 +1,5 @@
 import React from 'react';
+import SportsMmaRoundedIcon from '@mui/icons-material/SportsMmaRounded';
 
 const Hobbies = () => {
     return (
@@ -24,6 +25,10 @@ const Hobbies = () => {
                 <li className="hobby">
                 <i className="fas fa-video"></i>
                 <span> Audiovisuel</span>
+                </li>
+                <li className="hobby">
+                <SportsMmaRoundedIcon/>
+                <span> Sports de combats</span>
                 </li>
             </ul>
         </div>
